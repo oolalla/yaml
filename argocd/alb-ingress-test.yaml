@@ -50,7 +50,7 @@ metadata:
     alb.ingress.kubernetes.io/description: 'alb ingress controller'
     alb.ingress.kubernetes.io/load-balancer-size: "small"
     alb.ingress.kubernetes.io/network-type: "public"
-    alb.ingress.kubernetes.io/subnet-id: "31093"
+    alb.ingress.kubernetes.io/subnet-id: "32516"
     alb.ingress.kubernetes.io/actions.webgroup: >
       {"type":"targetGroup","targetGroup":{"targetGroups":[{"serviceName":"apache01","servicePort":80}]}}
   labels:
