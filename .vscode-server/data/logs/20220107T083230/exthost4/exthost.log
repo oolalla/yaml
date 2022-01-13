@@ -1,0 +1,15 @@
+[2022-01-07 16:23:54.749] [exthost] [info] Extension host with pid 52213 started
+[2022-01-07 16:23:54.751] [exthost] [error] Error: EEXIST: file already exists, open '/root/.vscode-server/data/User/workspaceStorage/354d4cb7c9a9ea9c299e2beae79dbf08/vscode.lock'
+[2022-01-07 16:23:54.751] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/354d4cb7c9a9ea9c299e2beae79dbf08/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2022-01-07 16:23:54.753] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/354d4cb7c9a9ea9c299e2beae79dbf08/vscode.lock': The lock does not look stale, elapsed: 248 ms, giving up.
+[2022-01-07 16:23:54.760] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/354d4cb7c9a9ea9c299e2beae79dbf08-1/vscode.lock': Lock acquired.
+[2022-01-07 16:23:54.861] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-01-07 16:23:54.865] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-01-07 16:23:55.335] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-01-07 16:23:55.395] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-01-07 16:23:55.632] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-07 16:23:55.645] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-01-07 16:23:55.648] [exthost] [info] Eager extensions activated
+[2022-01-07 16:33:47.357] [exthost] [info] extension host terminating: renderer disconnected for too long (2)
+[2022-01-07 16:33:47.357] [exthost] [info] Lock '/root/.vscode-server/data/User/workspaceStorage/354d4cb7c9a9ea9c299e2beae79dbf08-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2022-01-07 16:33:47.363] [exthost] [info] Extension host with pid 52213 exiting with code 0

@@ -1,0 +1,12 @@
+contexts:
+- name: argocd-argocd-server-1a161-9742954-a3b720ce2000.kr.lb.naverncp.com
+  server: argocd-argocd-server-1a161-9742954-a3b720ce2000.kr.lb.naverncp.com
+  user: argocd-argocd-server-1a161-9742954-a3b720ce2000.kr.lb.naverncp.com
+current-context: argocd-argocd-server-1a161-9742954-a3b720ce2000.kr.lb.naverncp.com
+servers:
+- grpc-web-root-path: ""
+  insecure: true
+  server: argocd-argocd-server-1a161-9742954-a3b720ce2000.kr.lb.naverncp.com
+users:
+- auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NDIwNjMyNDcsImp0aSI6Ijg2N2QwYjQ1LWIwNTItNDA2Zi05NDNmLTViNWExNTFkNmUzMSIsImlhdCI6MTY0MTk3Njg0NywiaXNzIjoiYXJnb2NkIiwibmJmIjoxNjQxOTc2ODQ3LCJzdWIiOiJhZG1pbjpsb2dpbiJ9.bcaU-JyeB9HCCB3XJfmYdmegcW7OFGdgL5mxQVHadMg
+  name: argocd-argocd-server-1a161-9742954-a3b720ce2000.kr.lb.naverncp.com

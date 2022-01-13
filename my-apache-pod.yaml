@@ -1,0 +1,142 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  creationTimestamp: "2022-01-05T08:13:11Z"
+  generateName: my-apache-58bbc7cf74-
+  labels:
+    app.kubernetes.io/instance: my-apache
+    app.kubernetes.io/managed-by: Helm
+    app.kubernetes.io/name: apache
+    helm.sh/chart: apache-8.11.1
+    pod-template-hash: 58bbc7cf74
+  name: my-apache-58bbc7cf74-f7f5g
+  namespace: default
+  ownerReferences:
+  - apiVersion: apps/v1
+    blockOwnerDeletion: true
+    controller: true
+    kind: ReplicaSet
+    name: my-apache-58bbc7cf74
+    uid: 05eb80e7-a709-4c0a-9898-ccff237f0431
+  resourceVersion: "9490"
+  uid: f65f7392-702c-477e-8859-b97f1fb8548c
+spec:
+  affinity:
+    podAntiAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - podAffinityTerm:
+          labelSelector:
+            matchLabels:
+              app.kubernetes.io/instance: my-apache
+              app.kubernetes.io/name: apache
+          namespaces:
+          - default
+          topologyKey: kubernetes.io/hostname
+        weight: 1
+  containers:
+  - env:
+    - name: BITNAMI_DEBUG
+      value: "false"
+    image: docker.io/bitnami/apache:2.4.52-debian-10-r3
+    imagePullPolicy: IfNotPresent
+    livenessProbe:
+      failureThreshold: 6
+      httpGet:
+        path: /
+        port: http
+        scheme: HTTP
+      initialDelaySeconds: 180
+      periodSeconds: 20
+      successThreshold: 1
+      timeoutSeconds: 5
+    name: apache
+    ports:
+    - containerPort: 8080
+      name: http
+      protocol: TCP
+    - containerPort: 8443
+      name: https
+      protocol: TCP
+    readinessProbe:
+      failureThreshold: 6
+      httpGet:
+        path: /
+        port: http
+        scheme: HTTP
+      initialDelaySeconds: 30
+      periodSeconds: 10
+      successThreshold: 1
+      timeoutSeconds: 5
+    resources: {}
+    terminationMessagePath: /dev/termination-log
+    terminationMessagePolicy: File
+    volumeMounts:
+    - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
+      name: default-token-r8dwn
+      readOnly: true
+  dnsPolicy: ClusterFirst
+  enableServiceLinks: true
+  hostAliases:
+  - hostnames:
+    - status.localhost
+    ip: 127.0.0.1
+  nodeName: nks-nks-nodepool-w-vct
+  preemptionPolicy: PreemptLowerPriority
+  priority: 0
+  restartPolicy: Always
+  schedulerName: default-scheduler
+  securityContext: {}
+  serviceAccount: default
+  serviceAccountName: default
+  terminationGracePeriodSeconds: 30
+  tolerations:
+  - effect: NoExecute
+    key: node.kubernetes.io/not-ready
+    operator: Exists
+    tolerationSeconds: 300
+  - effect: NoExecute
+    key: node.kubernetes.io/unreachable
+    operator: Exists
+    tolerationSeconds: 300
+  volumes:
+  - name: default-token-r8dwn
+    secret:
+      defaultMode: 420
+      secretName: default-token-r8dwn
+status:
+  conditions:
+  - lastProbeTime: null
+    lastTransitionTime: "2022-01-05T08:13:11Z"
+    status: "True"
+    type: Initialized
+  - lastProbeTime: null
+    lastTransitionTime: "2022-01-05T08:13:58Z"
+    status: "True"
+    type: Ready
+  - lastProbeTime: null
+    lastTransitionTime: "2022-01-05T08:13:58Z"
+    status: "True"
+    type: ContainersReady
+  - lastProbeTime: null
+    lastTransitionTime: "2022-01-05T08:13:11Z"
+    status: "True"
+    type: PodScheduled
+  containerStatuses:
+  - containerID: containerd://b30228df9af891037c6134ae04502f4a144f0dd301a540796472784c603f2d91
+    image: docker.io/bitnami/apache:2.4.52-debian-10-r3
+    imageID: docker.io/bitnami/apache@sha256:22a4c44eee948dfd7a0eb9b8f84113b469025a09d18e21bc9185eb780c39eb58
+    lastState: {}
+    name: apache
+    ready: true
+    restartCount: 0
+    started: true
+    state:
+      running:
+        startedAt: "2022-01-05T08:13:22Z"
+  hostIP: 10.0.4.9
+  phase: Running
+  podIP: 198.18.0.178
+  podIPs:
+  - ip: 198.18.0.178
+  qosClass: BestEffort
+  startTime: "2022-01-05T08:13:11Z"

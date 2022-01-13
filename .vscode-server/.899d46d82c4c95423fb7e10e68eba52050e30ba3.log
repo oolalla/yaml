@@ -1,0 +1,101 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 43903
+
+[13:11:16] Extension host agent started.
+[13:11:16] [127.0.0.1][e496ee30][ManagementConnection] New connection established.
+[13:11:16] [127.0.0.1][1220973f][ExtensionHostConnection] New connection established.
+[13:11:16] [127.0.0.1][1220973f][ExtensionHostConnection] <44214> Launched Extension Host Process.
+[13:11:25] [127.0.0.1][e496ee30][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:11:25] [127.0.0.1][1220973f][ExtensionHostConnection] <44214> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[13:11:25] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[13:11:31] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[13:11:31] Cancelling previous shutdown timeout
+[13:11:31] [127.0.0.1][47a2f075][ManagementConnection] New connection established.
+[13:11:31] [127.0.0.1][b7bd5e20][ExtensionHostConnection] New connection established.
+[13:11:31] [127.0.0.1][b7bd5e20][ExtensionHostConnection] <44420> Launched Extension Host Process.
+rejected promise not handled within 1 second: Error: Could not find pty with id "2"
+stack trace: Error: Could not find pty with id "2",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateTitle (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1591),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[Error: Could not find pty with id "2",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateTitle (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1591),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]
+New EH opened, aborting shutdown
+[13:16:31] New EH opened, aborting shutdown
+[13:20:04] [127.0.0.1][47a2f075][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:20:04] [127.0.0.1][b7bd5e20][ExtensionHostConnection] <44420> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[13:20:04] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[13:20:28] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[13:20:28] Cancelling previous shutdown timeout
+[13:20:29] [127.0.0.1][aa6919ef][ManagementConnection] New connection established.
+[13:20:29] [127.0.0.1][42dbd4ad][ExtensionHostConnection] New connection established.
+[13:20:29] [127.0.0.1][42dbd4ad][ExtensionHostConnection] <45097> Launched Extension Host Process.
+[13:20:51] [127.0.0.1][aa6919ef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:20:51] [127.0.0.1][42dbd4ad][ExtensionHostConnection] <45097> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[13:20:51] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[13:20:51] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[13:20:58] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[13:20:58] Cancelling previous shutdown timeout
+[13:20:58] [127.0.0.1][80ed8d36][ManagementConnection] New connection established.
+[13:20:58] [127.0.0.1][a534cd84][ExtensionHostConnection] New connection established.
+[13:20:58] [127.0.0.1][a534cd84][ExtensionHostConnection] <45292> Launched Extension Host Process.
+rejected promise not handled within 1 second: Error: Could not find pty with id "4"
+stack trace: Error: Could not find pty with id "4",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateTitle (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1591),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)
+[Error: Could not find pty with id "4",    at l._throwIfNoPty (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:4919),    at l.updateTitle (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:17:1591),    at Object.call (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:13:8419),    at L.onPromise (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4940),    at L.onRawMessage (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:4299),    at /root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:12:3552,    at R.fire (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:8:1712),    at process.Q (/root/.vscode-server/bin/899d46d82c4c95423fb7e10e68eba52050e30ba3/out/vs/platform/terminal/node/ptyHostMain.js:6:32910),    at process.emit (events.js:315:20),    at emit (internal/child_process.js:903:12),    at processTicksAndRejections (internal/process/task_queues.js:81:21)]
+[13:22:35] [127.0.0.1][80ed8d36][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:22:35] [127.0.0.1][a534cd84][ExtensionHostConnection] <45292> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[13:22:35] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[13:22:35] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[13:22:41] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[13:22:41] Cancelling previous shutdown timeout
+[13:22:41] [127.0.0.1][ac168f6f][ManagementConnection] New connection established.
+[13:22:41] [127.0.0.1][e57a75ba][ExtensionHostConnection] New connection established.
+[13:22:41] [127.0.0.1][e57a75ba][ExtensionHostConnection] <45586> Launched Extension Host Process.
+[13:23:08] [127.0.0.1][ac168f6f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:23:08] [127.0.0.1][e57a75ba][ExtensionHostConnection] <45586> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[13:23:08] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[13:23:08] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[13:23:14] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[13:23:14] Cancelling previous shutdown timeout
+[13:23:14] [127.0.0.1][7e6b74c6][ManagementConnection] New connection established.
+[13:23:14] [127.0.0.1][0a244f0d][ExtensionHostConnection] New connection established.
+[13:23:14] [127.0.0.1][0a244f0d][ExtensionHostConnection] <45808> Launched Extension Host Process.
+[13:24:52] [File Watcher (parcel)] ignoring a path for watching who's parent is already watched: /root/argocd
+[13:24:52] [127.0.0.1][7e6b74c6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:24:52] [127.0.0.1][0a244f0d][ExtensionHostConnection] <45808> Extension Host Process exited with code: 0, signal: null.
+Cancelling previous shutdown timeout
+[13:24:52] Cancelling previous shutdown timeout
+Last EH closed, waiting before shutting down
+[13:24:52] Last EH closed, waiting before shutting down
+Got delay-shutdown request while in shutdown timeout, delaying
+[13:24:59] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[13:24:59] Cancelling previous shutdown timeout
+[13:24:59] [127.0.0.1][6add8747][ManagementConnection] New connection established.
+[13:24:59] [127.0.0.1][799fe0b7][ExtensionHostConnection] New connection established.
+[13:24:59] [127.0.0.1][799fe0b7][ExtensionHostConnection] <46053> Launched Extension Host Process.
+[13:24:59] [File Watcher (parcel)] ignoring a path for watching who's parent is already watched: /root/argocd
+New EH opened, aborting shutdown
+[13:29:59] New EH opened, aborting shutdown
